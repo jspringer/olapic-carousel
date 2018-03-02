@@ -1,0 +1,74 @@
+.olapic-api-carousel {
+  max-width: 1200px;
+  width: 100%;
+  margin:0 auto;
+}
+
+.owl-carousel .owl-stage-outer {
+  max-width:1275px;
+  width:100%;
+  margin:0 auto;
+}
+
+.owl-item {
+  background: #fafafa;
+}
+
+.item {
+  height:200px;
+  max-width:300px;
+  width:100%;
+  display: flex;
+  align-items: center;
+    margin:0 auto;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:100%;
+  margin-top:0;
+}
+
+.owl-prev {
+  float:left;
+}
+
+.owl-next {
+  float:right;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  background:none;
+  margin:0 auto;
+  padding:0;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background:none;
+  margin:0 auto;
+  padding:0;
+}
+
+.fa-angle-left {
+  font-size: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 14px 8px;
+}
+
+.fa-angle-left:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.fa-angle-right {
+  font-size: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 14px 8px;
+}
+
+.fa-angle-right:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
