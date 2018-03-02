@@ -13,7 +13,7 @@ Create a simple front-end display of UGC pulled directly from the Olapic API, an
 #### Steps: 
 1. Reviewed instructions.
 2. Visited and inspected (DevTools) example pages listed.
-3. Reviewed API documentation. 
+3. Reviewed [API documentation](http://www.photorank.me/api.html). 
 4. In Postman, GET https://photorankapi-a.akamaihd.net?auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2 for Customer ID and other information about the account.
 5. Considered options for handling the API. Decided jQuery is the simplest solution ($.ajax()). 
 6. Created files based on names given in documentation, organized into usual directories. 
