@@ -18,17 +18,17 @@ Steps:
 5. Considered options for handling the API. Decided jQuery is the simplest solution ($.ajax()). 
 6. Created files based on names given in documentation, organized into usual directories. 
 7. While investigating, found documentation on Olapic's website for setting up a carousel using Owl and used that as a model for my solution. I assume this may have been part of the challenge, finding existing documentation to speed up the process of handling the task rather than starting from scratch and losing productivity time and possibly introducing bugs. 
-8. Edited the script.js code in several ways: 
+8. Edited the [script.js](js/script.js) code in several ways: 
 - Changed vars to consts and lets (ES6+ style)
 - Added let to variable declaration in the for loop on line 17
 - Changed x to i in for loop, personal preference (think of i as short for index)
 - Eliminated the mediaItem variable declaration, though I understand it may have been set up that way to make it a bit more clear to someone else reviewing the code what is going on (this could be mentioned in a comment)
 - Decided to use .normal images rather than .mobile on line 18. 
 - Altered some of Owl's carousel settings (set items to 6, changed navText to use Font Awesome arrows, autoplay to false, the value of items under responsive)
-9. In index.html, updated the link to the jQuery used to the most recent version and added Font Awesome for arrows.
-10. Updated style.css, particularly for handling the arrows. 
+9. In [index.html](index.html), updated the link to the jQuery used to the most recent version and added Font Awesome for arrows.
+10. Updated [style.css](css/style.css), particularly for handling the arrows. 
 
 Potential issue: 
 Client's example carousel was slightly different than the conditions. Mainly, there is a selected photo shown above the carousel. Would check with client to see if they actually want that as well. 
 
-[View]()
+[View](http://jasonspringer.me/other/olapic-carousel/)
