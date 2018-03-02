@@ -21,7 +21,7 @@ Create a simple front-end display of UGC pulled directly from the Olapic API, an
 8. Edited the [script.js](js/script.js) code in several ways: 
 - Changed vars to consts and lets (ES6+ style)
 - Added let to variable declaration in the for loop on line 17
-- Changed x to i in for loop, personal preference (think of i as short for index)
+- Changed x to i in for loop, personal preference (i for index)
 - Eliminated the mediaItem variable declaration, though I understand it may have been set up that way to make it a bit more clear to someone else reviewing the code what is going on (this could be mentioned in a comment)
 - Decided to use .normal images rather than .mobile on line 18 
 - Altered some of Owl's carousel settings (set items to 6, changed navText to use Font Awesome arrows, autoplay to false, the value of items under responsive)
