@@ -1,16 +1,16 @@
-Carousel Task
+## Carousel Task
 
-Task
+#### Task
 Create a simple front-end display of UGC pulled directly from the Olapic API, and incorporate a carousel feature to make the content scrollable.
 
-Conditions
+#### Conditions
 1. Create a scrollable image carousel with the following specs:
 - Left and right navigation buttons (met)
 - 6 photos showing at a given time. (met)
 2. Display the photo objects from Olapic API response into the carousel (met)
 3. Explain your development process. (Ex. Your method of retrieving images from the Olapic API, how you implemented the carousel, etc.) (see below)
 
-Steps: 
+#### Steps: 
 1. Reviewed instructions.
 2. Visited and inspected (DevTools) example pages listed.
 3. Reviewed API documentation. 
@@ -28,7 +28,7 @@ Steps:
 9. In [index.html](index.html), updated the link to the jQuery used to the most recent version and added Font Awesome for arrows.
 10. Updated [style.css](css/style.css), particularly for handling the arrows. 
 
-Potential issue: 
+#### Potential issue: 
 Client's example carousel was slightly different than the conditions. Mainly, there is a selected photo shown above the carousel. Would check with client to see if they actually want that as well. 
 
-[View](http://jasonspringer.me/other/olapic-carousel/)
+**[View](http://jasonspringer.me/other/olapic-carousel/)**
